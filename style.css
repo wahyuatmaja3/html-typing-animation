@@ -71,6 +71,31 @@ body {
     }
 }
 
+@media all and (max-width:450px) {
+    .static-text {
+        font-size: 30px;
+    }
+
+    .dynamic-text li {
+        font-size: 30px;
+        top: 0;
+    }
+
+    .dynamic-text {
+        line-height: 35px;
+        height: 30px;
+        overflow: hidden;
+    }
+
+    
+    @keyframes slide {
+        100% {
+            top: -105px;
+        }
+    }
+
+}
+
 /* @keyframes bg {
     0%{
         color: #f94144;
